@@ -1,9 +1,11 @@
 doctype html
 html
 	head
-		//- link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
 		block head
 			title Tittle
 		link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		block scripts
 
-block content
+	body
+		block content

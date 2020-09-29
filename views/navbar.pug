@@ -1,10 +1,27 @@
-
-
-
-
-
-
-
-
-
 block content
+	nav(class="navbar navbar-expand-lg navbar-light bg-light")
+		img(src="/img/vodafone_logo.jfif" alt="logo")
+		button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+			span(class="navbar-toggler-icon")
+
+		div(class="collapse navbar-collapse" id="navbarSupportedContent")
+			ul(class="navbar-nav mr-auto")
+				li(class="nav-item active")
+					a(class="nav-link" href="#") Home 
+						span(class="sr-only") (current)
+				li(class="nav-item dropdown")
+					a(class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") NPDD
+
+					div(class="dropdown-menu" aria-labelledby="navbarDropdown")
+						a(class="dropdown-item" href="#") List NPDD
+						a(class="dropdown-item" href="#") Create NPDD
+						a(class="dropdown-item" href="#") Search NPDD
+				li(class="nav-item dropdown")
+					a(class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") FR/TQ
+
+					div(class="dropdown-menu" aria-labelledby="navbarDropdown")
+						a(class="dropdown-item" href="#") List FR/TQ
+						a(class="dropdown-item" href="#") Create FR/TQ
+						a(class="dropdown-item" href="#") Search FR/TQ
+				li(class="nav-item")
+					a(class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true") Tickets
